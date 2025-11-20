@@ -1,8 +1,8 @@
 export const data = [
-    {name:"Educational Webinars", value: 1},
-    {name:"Skills Development", value: 1},
-    {name:"Visionary Planning", value: 1},
-    {name:"Project Execution", value: 1},
-    {name:"Continuous Support", value: 1},
-    {name:"Feedback Loop", value: 1},
+    {name:"Campus Digital Twin", value: 1},
+    {name:"Graduation Feasibility", value: 1},
+    {name:"Scheduling Simulations", value: 1},
+    {name:"Classroom Alignment", value: 1},
+    {name:"Logistics Modeling", value: 1},
+    {name:"Adaptive Operations", value: 1},
 ]

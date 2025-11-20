@@ -15,10 +15,10 @@ const Card = () => {
       >
         {/* <FaCode size={40} /> */}
         <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Free Educational Webinars
+        Graduation Feasibility
         </h1>
         <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-3">
-        Dive into the essentials of Fourth Industrial Revolution technologies and their impact on your industry.
+        Can your students graduate on time? We analyze historical course schedules to identify impossible conflicts and bottlenecks.
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -26,8 +26,8 @@ const Card = () => {
         className="w-full h-[250px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="/img1.png"
-          alt="Header Image"
+          src="/solution1.png"
+          alt="Graduation Feasibility"
           width={400}
           height={400}
           loading="lazy"
@@ -39,8 +39,8 @@ const Card = () => {
         className="w-full h-auto object-cover md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="/img.png"
-          alt="Header Image"
+          src="/solution2.png"
+          alt="Policy Simulation"
           width={400}
           height={400}
           loading="lazy"
@@ -53,11 +53,11 @@ const Card = () => {
       >
         {/* <FaCode size={40} /> */}
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Customized Training Solutions
+        Policy Simulation
         </h1>
 
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Enhance your team's expertise with personalized training programs, crafted to meet your unique business needs.
+        Test scheduling changes before implementation. See how prime-time limits affect room usage and student success.
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -66,10 +66,10 @@ const Card = () => {
       >
         {/* <FaCode size={40} /> */}
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Personalized Technology Audits
+        Resource Alignment
         </h1>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Gain deep insights into your current technology usage and uncover potential areas for improvement.
+        Do you have the right rooms? We match seat inventory to actual pedagogical demand across all colleges.
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -78,11 +78,11 @@ const Card = () => {
       >
         {/* <FaCode size={40} /> */}
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Strategic Planning and Comprehensive Audits
+        Campus Digital Twin
         </h1>
 
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Align your business goals with a strategic technology roadmap designed for sustainable growth.
+        Model physical walking constraints. We flag back-to-back classes that are physically impossible for students.
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -91,11 +91,11 @@ const Card = () => {
       >
         {/* <FaCode size={40} /> */}
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Team Building and Project Management Services
+        Strategic Optimization
         </h1>
 
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Let us lead your strategic projects to success with our expert team building and project management support.
+        Data-driven insights to optimize course offerings, room assignments, and student pathways.
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -103,7 +103,7 @@ const Card = () => {
         className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="/img.png"
+          src="/solution.png"
           alt="Header Image"
           width={400}
           height={400}

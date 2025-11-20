@@ -25,7 +25,7 @@ export default function SolutionPage() {
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-        Innovative solutions for seamless digital transformation.
+        Advanced simulation engines and digital twins for higher education logistics.
         </p>
       </div>
       <div className="py-10 mt-20 flex gap-10 flex-row justify-center relative flex-wrap">

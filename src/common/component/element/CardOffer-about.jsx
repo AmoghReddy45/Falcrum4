@@ -21,22 +21,23 @@ export default function CardOffer({title, className = ''}) {
           className="w-full h-full object-cover z-[-9] absolute inset-0"
         />
         <h1 className="text-left text-3xl md:text-7xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-bold">
-        Join Us in Shaping the Future
+        Partner with Us for Smarter Campus Operations
         </h1>
         <h2 className="text-left text-xl md:text-5xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-semibold">
-        Welcome to Fulcrum Services, where the future is not just something we predict—it's something we create.        </h2>
+        We don't just model data; we model your reality.
+        </h2>
         <h3 className="text-left text-xl md:text-2xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-medium">
-        At Fulcrum Services, we are more than consultants; we are partners in revolutionizing your business for a new era. Led by Daniel Bron and supported by a team of visionaries, we invite you to explore the limitless possibilities of the Fourth Industrial Revolution with us. Together, we can redefine what it means to be a business in the 21st century, creating a legacy of innovation, growth, and transformative success.
+        At Fulcrum Services, we combine deep logistical expertise with advanced simulation technology. Our goal is to empower university administrators with the foresight they need to make confident, data-backed decisions. Join us in building the future of higher education logistics.
         </h3>
       <ComponentTransition className="w-full md:flex-row flex-row flex gap-3 py-5 md:w-[80%] justify-items-start items-start content-start place-items-start place-content-start">
           <Link href="/contact">
             <ButtonSpot 
-            title="Register Now"
+            title="Schedule Demo"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
           <Link href="/contact">
             <ButtonSpot 
-            title="Download Workbook"
+            title="Contact Sales"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
       </ComponentTransition>

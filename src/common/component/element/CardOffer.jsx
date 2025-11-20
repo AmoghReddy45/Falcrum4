@@ -21,23 +21,23 @@ export default function CardOffer({title, className = ''}) {
           className="w-full h-full object-cover z-[-9] absolute inset-0"
         />
         <h1 className="text-left text-3xl md:text-7xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-bold">
-        Ready to Transform Your Business?
+        Start Your Campus Optimization Journey
         </h1>
         <h2 className="text-left text-xl md:text-5xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-semibold">
-        Join Our Next Free Webinar
+        Get a Feasibility Audit
         </h2>
         <h3 className="text-left text-xl md:text-2xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-medium">
-        Embark on your journey to technological excellence and business growth. Register for our next free webinar and download our comprehensive workbook to get started.
+        Discover how our digital twin technology can uncover hidden bottlenecks in your schedule and resource allocation. Let's discuss how we can help you achieve higher graduation rates and better resource utilization.
         </h3>
       <ComponentTransition className="w-full md:flex-row flex-row flex gap-3 py-5 md:w-[80%] justify-items-start items-start content-start place-items-start place-content-start">
           <Link href="/contact">
             <ButtonSpot 
-            title="Register Now"
+            title="Schedule Demo"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
           <Link href="/contact">
             <ButtonSpot 
-            title="Download Workbook"
+            title="Contact Sales"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
       </ComponentTransition>

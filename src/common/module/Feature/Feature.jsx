@@ -58,10 +58,10 @@ export default function Feature() {
         className="flex justify-center items-center flex-col"
       >
         <h1 className="text-3xl md:text-5xl py-5 text-center bg-clip-text dark:bg-gradient-to-r from-white from-50% to-[#8f8f8f] bg-text md:w-[100%] text-transparent font-bold">
-          Pioneering the Fourth Industrial Revolution
+          Strategic Simulation & Digital Twins
         </h1>
         <p className="text-base md:text-2xl text-center text-neutral-500 dark:text-neutral-300">
-          In today's rapidly evolving tech landscape, Fulcrum Services propels businesses to the forefront of the Fourth Industrial Revolution. Specializing in transforming firms and startups into industry leaders, we harness the power of AI, Blockchain, and IoT to not only address today's challenges but to shape tomorrow's opportunities. Our strategy is clear: drive unparalleled efficiency, innovation, and growth. We're not just adapting to change; we're setting the pace, committed to excellence and redefining the future of business.
+          We provide the analytical engines to model complex environments. Whether it's scheduling policy experiments or campus-wide resource alignment, our digital twins offer the foresight needed for data-driven decisions. By modeling physical walking constraints and course conflicts, we help institutions optimize for student success and operational efficiency.
         </p>
         {/* Conditionally render based on isDesktop */}
         <div className="h-auto">{isDesktop ? (
