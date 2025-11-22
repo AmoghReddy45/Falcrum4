@@ -31,10 +31,10 @@ export const BlogContent = [
   },
   {
     id: 2,
-    bigTitle: "Motor Company Success with IoT Integration",
+    bigTitle: "Delorean Motor Company Success with IoT Integration",
     slug: 'motor-company-iot-success',
     img: 'https://images.unsplash.com/photo-1601315488950-3b5047998b38?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: "Motor Company Success with IoT Integration",
+    title: "Delorean Motor Company Success with IoT Integration",
     desc: "Discover how a leading automotive manufacturer leveraged IoT technology to revolutionize its operations. This case study explores the impact of predictive maintenance and real-time connectivity on factory floor efficiency and safety.",
     content: (
       <>
