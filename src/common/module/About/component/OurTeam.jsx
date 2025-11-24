@@ -8,7 +8,7 @@ export default function OurTeam() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-            Meet the Visionaries
+            Meet the Founder
             </h2>
             <p className="max-w-[900px] text-neutral-700 dark:text-neutral-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
             We&rsquo;re a team of designers, developers, and creatives who are passionate about building Amazing products.
@@ -21,7 +21,7 @@ export default function OurTeam() {
               alt="Daniel Bron - CEO"
               className="overflow-hidden rounded-3xl object-cover object-center w-[200px] h-[200px] group-hover:scale-105 transition-transform"
               height={200}
-              src="https://i.imgur.com/LblA67h.png"
+              src="/daniel-bron.jpeg"
               width={200}
               priority
             />
