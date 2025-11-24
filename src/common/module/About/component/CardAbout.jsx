@@ -26,7 +26,7 @@ const CardAbout = () => {
               Mission
             </h1> */}
             <p className="text-base text-neutral-800 dark:text-neutral-300 mt-5 ">
-            Understanding the complex challenges of modern university operations, Daniel set out to ensure that institutions aren't just reacting to logistical problems but are solving them with foresight. His mission with Fulcrum Services is clear: to empower higher education with the power of digital twins, simulation engines, and predictive analytics, ensuring they maximize student success and operational efficiency.
+            Daniel founded Fulcrum Services after spending years inside systems that were never designed for the pressure they carried. Early work in crypto and digital assets led to an engagement with Ukraine’s Ministry of Digital Transformation, where global donations had to move quickly and safely into real procurement. Work with DeLorean Motor Company focused on giving a legendary brand a modern digital backbone. Collaboration with American Express and Resy exposed the team to the demands of a global payments platform where downtime is not an option. The mission is simple: help organizations that carry real responsibility use modern technology in a grounded, measurable, and honest way. No theater. No buzzwords. Just clear systems that make the next decision easier and safer to take.
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const CardAbout = () => {
             Vision
           </h1>
           <p className="text-base text-neutral-800 dark:text-neutral-300 mt-5 grow">
-          Fulcrum Services was born from a realization that data without context is just noise. Our founder recognized that the complex ecosystem of a university campus—with its interdependencies between schedules, rooms, and student paths—required a new kind of modeling. We moved beyond simple spreadsheets to create dynamic digital twins that respect the physical and temporal reality of campus life.
+          Fulcrum Services does not exist to chase every new tool. It exists to help a small number of important teams build the systems that will quietly run the next few decades. The most meaningful part of the Fourth Industrial Revolution is the ability to see your environment as a living system, model it faithfully, and test new futures before you choose one. We imagine a world where a university provost, a mobility operator, a platform executive, or a government minister can sit in front of a clear model of their domain and understand it at a glance. They can explore scenarios, see tradeoffs, and trust that the software respects both the math and the politics. Fulcrum Services exists to build those systems and to teach teams how to live with them.
           </p>
         </div>
         <div className=" overflow-hidden mt-10  bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">

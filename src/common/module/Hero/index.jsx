@@ -54,22 +54,22 @@ const Hero = () => {
   return (
     <div className="h-auto max-w-[1500px] md:mb-20 screen-w px-5 lg:px-10 mt-20 relative ">
       <div className="flex flex-col justify-center md:top-0 mt-28 lg:mt-36  items-center">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center text-center">
           <div className="border-[1px] rounded-full border-[#09162B] py-2 px-5 sm: mt-24">
-            <h1 className="text-black dark:text-white">Campus Intelligence & Logistics</h1>
+            <h1 className="text-black dark:text-white">Build What Comes Next</h1>
           </div>
           <H1
-            className="py-8 xl:w-[80%] 2xl:w-[80%] !leading-[0.85em] items-center flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-center text-4xl sm:text-5xl md:text-7xl w-full  font-bold pb-1"
-            title="Digital Twins for Complex Environments"
+            className="py-8 xl:w-[80%] 2xl:w-[80%] !leading-[1.05em] items-center flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-center text-4xl sm:text-5xl md:text-7xl w-full  font-bold pb-1"
+            title="Engineering Systems For The Real World"
           />
 
           <p className="py-8 lg:w-[70%] text-center  lg:text-2xl mt-2 dark:text-neutral-300 text-neutral-700">
-          From graduation feasibility to physical resource alignment. We build the simulation engines that power smarter university operations.
+          Fulcrum Services turns complex operations into clear, intelligent systems for founders, operators, and institutions. From DeLorean Motor Company to Ukraine’s Ministry of Digital Transformation and American Express’ Resy platform, we design, simulate, and ship what comes next.
           </p>
 
           <motion.div className="flex max-md:flex-col w-full items-center justify-center gap-5 py-5">
             <ButtonSpot
-              title="Get your Free Consultation"
+              title="Get a Working Session"
               className="!rounded-full !w-auto !py-2"
             />
           </motion.div>

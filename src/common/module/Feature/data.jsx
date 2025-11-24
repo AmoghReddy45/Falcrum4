@@ -1,8 +1,8 @@
 export const data = [
-    {name:"Campus Digital Twin", value: 1},
-    {name:"Graduation Feasibility", value: 1},
-    {name:"Scheduling Simulations", value: 1},
-    {name:"Classroom Alignment", value: 1},
-    {name:"Logistics Modeling", value: 1},
-    {name:"Adaptive Operations", value: 1},
+    {name:"Executive Briefing", value: 1},
+    {name:"Capability Building", value: 1},
+    {name:"Strategic Blueprint", value: 1},
+    {name:"Project Delivery", value: 1},
+    {name:"Ongoing Stewardship", value: 1},
+    {name:"Review and Iterate", value: 1},
 ]

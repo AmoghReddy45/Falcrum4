@@ -58,10 +58,13 @@ export default function Feature() {
         className="flex justify-center items-center flex-col"
       >
         <h1 className="text-3xl md:text-5xl py-5 text-center bg-clip-text dark:bg-gradient-to-r from-white from-50% to-[#8f8f8f] bg-text md:w-[100%] text-transparent font-bold">
-          Strategic Simulation & Digital Twins
+          Pioneers In Applied Intelligence
         </h1>
         <p className="text-base md:text-2xl text-center text-neutral-500 dark:text-neutral-300">
-          We provide the analytical engines to model complex environments. Whether it's scheduling policy experiments or campus-wide resource alignment, our digital twins offer the foresight needed for data-driven decisions. By modeling physical walking constraints and course conflicts, we help institutions optimize for student success and operational efficiency.
+          Technology is everywhere. Useful technology is rare. Fulcrum Services sits where ambitious ideas meet messy reality, whether it is DeLorean’s vehicle platform, Ukraine’s wartime financial rails, or the FastAPI backbone inside American Express’ Resy.
+        </p>
+        <p className="text-base md:text-2xl text-center text-neutral-500 dark:text-neutral-300 mt-4">
+          AI, data, and infrastructure are only ingredients. We map the system, understand its constraints, and deliver the smallest set of tools that actually move the needle—listening hard, designing from first principles, and leaving leaders with systems they can trust.
         </p>
         {/* Conditionally render based on isDesktop */}
         <div className="h-auto">{isDesktop ? (
@@ -74,7 +77,7 @@ export default function Feature() {
       <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3">
         <Link href="/solution" className="w-full rounded-full">
           <Button
-            title="View All Solution"
+            title="View Our Services"
             className="hover:!bgslate hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
           />
         </Link>

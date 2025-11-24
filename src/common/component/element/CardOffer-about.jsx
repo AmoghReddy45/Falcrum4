@@ -21,23 +21,23 @@ export default function CardOffer({title, className = ''}) {
           className="w-full h-full object-cover z-[-9] absolute inset-0"
         />
         <h1 className="text-left text-3xl md:text-7xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-bold">
-        Partner with Us for Smarter Campus Operations
+        Join Us At The Fulcrum
         </h1>
         <h2 className="text-left text-xl md:text-5xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-semibold">
-        We don't just model data; we model your reality.
+        Welcome to Fulcrum Services, where complex systems become clear.
         </h2>
         <h3 className="text-left text-xl md:text-2xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-medium">
-        At Fulcrum Services, we combine deep logistical expertise with advanced simulation technology. Our goal is to empower university administrators with the foresight they need to make confident, data-backed decisions. Join us in building the future of higher education logistics.
+        We are a focused studio led by Daniel Bron that lives at the intersection of emerging technology and real world operations. From crypto rails for a national government to digital foundations for DeLorean and services inside American Express’ Resy platform, we help teams build the control layers they wish they already had. If you are responsible for a complex environment and need a partner who can think with you and execute with you, we would love to talk.
         </h3>
       <ComponentTransition className="w-full md:flex-row flex-row flex gap-3 py-5 md:w-[80%] justify-items-start items-start content-start place-items-start place-content-start">
           <Link href="/contact">
             <ButtonSpot 
-            title="Schedule Demo"
+            title="Meet The Team"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
           <Link href="/contact">
             <ButtonSpot 
-            title="Contact Sales"
+            title="Explore Our Work"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
       </ComponentTransition>

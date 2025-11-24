@@ -21,23 +21,23 @@ export default function CardOffer({title, className = ''}) {
           className="w-full h-full object-cover z-[-9] absolute inset-0"
         />
         <h1 className="text-left text-3xl md:text-7xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-bold">
-        Start Your Campus Optimization Journey
+        Ready To Tackle A Real Problem
         </h1>
         <h2 className="text-left text-xl md:text-5xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-semibold">
-        Get a Feasibility Audit
+        Talk With The Fulcrum Services Team
         </h2>
         <h3 className="text-left text-xl md:text-2xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-medium">
-        Discover how our digital twin technology can uncover hidden bottlenecks in your schedule and resource allocation. Let's discuss how we can help you achieve higher graduation rates and better resource utilization.
+        Bring us your hardest scheduling, systems, or data challenge. We will use the first call as a working session, outline concrete options, and share how similar problems were solved for DeLorean, Ukraine’s Ministry of Digital Transformation, and American Express.
         </h3>
       <ComponentTransition className="w-full md:flex-row flex-row flex gap-3 py-5 md:w-[80%] justify-items-start items-start content-start place-items-start place-content-start">
           <Link href="/contact">
             <ButtonSpot 
-            title="Schedule Demo"
+            title="Schedule A Call"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
           <Link href="/contact">
             <ButtonSpot 
-            title="Contact Sales"
+            title="Download Capabilities Brief"
             className="w-full md:w-full py-5 px-8"/>
           </Link>
       </ComponentTransition>

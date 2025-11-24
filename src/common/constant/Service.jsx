@@ -11,44 +11,23 @@ const size = 35
 export const Services = [
   {
     icon: (
-      <IoIosSchool
-        size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
-        
-      />
-    ),
-    title: "Graduation Feasibility Analysis",
-    desc: "Analyze historical schedules and program requirements to ensure students can graduate in 4 years without impossible conflicts.",
-  },
-  {
-    icon: (
-      <MdAnimation
-        size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
-      />
-    ),
-    title: "Policy Experiments & Simulation",
-    desc: "Simulate policy changes, such as prime-time limits, to measure their impact on student bottlenecks and graduation rates.",
-  },
-  {
-    icon: (
       <FaConnectdevelop
         size={size}
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Campus Logistics Digital Twin",
-    desc: "A comprehensive digital model of programs, schedules, rooms, and buildings to visualize and optimize campus operations.",
+    title: "Executive Briefings",
+    desc: "Short, focused sessions that cut through hype and show what AI, data, and infrastructure can really do inside your environment.",
   },
   {
     icon: (
-      <MdOutlineAutoAwesomeMotion
+      <ImProfile
         size={size}
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Classroom & Resource Alignment",
-    desc: "Assess if schools have the right seats in the right buildings, and determine where reassignment or central management is needed.",
+    title: "Capability Building",
+    desc: "Workshops and working sessions that level up internal teams on digital twins, optimization, product thinking, and data governance so they can build with us.",
   },
   {
     icon: (
@@ -57,60 +36,78 @@ export const Services = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Physical Walking Constraints",
-    desc: "Model building locations and travel times to identify and prevent physically impossible back-to-back class schedules.",
+    title: "Systems and Technology Audits",
+    desc: "An honest map of how systems, data, and processes really work today with clear points of failure, duplication, and leverage.",
+  },
+  {
+    icon: (
+      <MdOutlineAutoAwesomeMotion
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "Strategy and Roadmapping",
+    desc: "Collaborative strategy that turns the audit into a focused blueprint tied to measurable outcomes and sequenced initiatives.",
+  },
+  {
+    icon: (
+      <MdAnimation
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "Project Delivery & Program Management",
+    desc: "Hands-on support to design, build, and launch prototypes, internal tools, production platforms, and the governance around them.",
   },
 ];
 
 export const ServiceItem = [
   {
-    text1: 'Model:',
-    text2: 'Digital Twin Creation',
-    title: 'Campus Digital Twin',
-    Goal: 'Create a high-fidelity digital replica of your campus, including buildings, rooms, and course schedules.',
-    Impact: 'Provides a foundational data layer for accurate simulation and analysis of campus logistics.',
+    text1: 'Initiate:',
+    text2: 'Awareness and Alignment',
+    title: 'Executive Briefings',
+    Goal: 'Give decision makers a clear view of what is possible in their context, using concrete examples from automotive, government, and platform work.',
+    Impact: 'Creates a shared language at the top of the organization and aligns everyone on the problems that matter before money is spent.',
     icon : <FaConnectdevelop className="h-8 w-8 mb-4 dark:text-white text-black place-self-start " />
   },
   {
-    text1: 'Analyze:',
-    text2: 'Feasibility Assessment',
-    title: 'Graduation Feasibility',
-    Goal: `Determine if students can realistically meet degree requirements under current scheduling constraints.`,
-    Impact: 'Identifies systemic conflicts preventing on-time graduation, allowing for targeted intervention.',
+    text1: 'Empower:',
+    text2: 'Targeted Capability Building',
+    title: 'Capability Building',
+    Goal: `Equip internal teams with the mental models and practical skills needed to participate in AI, data, and systems work.`,
+    Impact: 'Builds a core group inside the organization that can carry the work forward and reduces long-term vendor dependency.',
+    icon : <ImProfile className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
+  },
+  {
+    text1: 'Strategize:',
+    text2: 'Blueprint and Alignment',
+    title: 'Strategic Blueprint',
+    Goal: `Translate findings into a clear architecture and roadmap with integration patterns and a deliverable sequence.`,
+    Impact: 'Replaces scattered initiatives with a single plan leadership can fund and measure against.',
     icon : <IoIosSchool className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
   {
-    text1: 'Simulate:',
-    text2: 'Policy Experimentation',
-    title: 'Scheduling Simulations',
-    Goal: `Test hypothetical scheduling policies (e.g., prime-time restrictions) before implementation.`,
-    Impact: 'Reduces risk by predicting the outcomes of policy changes on student access and resource utilization.',
-    icon : <MdAnimation className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
-  },
-  {
-    text1: 'Optimize:',
-    text2: 'Resource Allocation',
-    title: 'Classroom Alignment',
-    Goal: `Match physical resources (seats, rooms) to actual academic demand across departments.`,
-    Impact: 'Maximizes space utilization and ensures that room assignments support pedagogical needs.',
+    text1: 'Implement:',
+    text2: 'Delivery and Integration',
+    title: 'Project Delivery',
+    Goal: `Turn the blueprint into running systems, whether a campus capacity model, vehicle twin, or new FastAPI services.`,
+    Impact: 'Delivers visible wins that matter to operators and users and proves the value of the strategy.',
     icon : <MdOutlineAutoAwesomeMotion className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
   {
-    text1: 'Refine:',
-    text2: 'Physical Constraints',
-    title: 'Logistics Modeling',
-    Goal: `Incorporate travel times and physical distances into schedule validation.`,
-    Impact: 'Eliminates "impossible" schedules where students cannot physically travel between classes in time.',
+    text1: 'Optimize:',
+    text2: 'Continuous Stewardship',
+    title: 'Ongoing Stewardship',
+    Goal: `Monitor how systems behave, adjust parameters, refine models, and expand usage as the organization evolves.`,
+    Impact: 'Prevents new infrastructure from becoming shelfware and keeps teams near the edge of what is possible.',
     icon : <IoDiamondOutline className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
   {
-    text1: 'Evolve:',
-    text2: 'Continuous Improvement',
-    title: 'Adaptive Operations',
-    Goal: `Use the digital twin to continuously adapt to changing enrollment numbers and program requirements.`,
-    Impact: `Ensures that campus logistics remain efficient and student-centric as the institution grows and changes.`,
-    icon : <ImProfile className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
+    text1: 'Iterate:',
+    text2: 'Feedback and Next Moves',
+    title: 'Review and Iterate',
+    Goal: `Use feedback from projects and operations to refine the blueprint and select the next high leverage initiatives.`,
+    Impact: `Creates a culture of continuous improvement where each cycle compounds knowledge, capability, and advantage.`,
+    icon : <MdAnimation className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
-  
-
 ];

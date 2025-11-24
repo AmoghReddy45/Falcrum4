@@ -5,6 +5,8 @@ import React from "react";
 import Feedback from "../../Feedback";
 import { SolutionAllItem } from "@/common/constant/CardItem";
 import CardOffer from "@/common/component/element/CardOffer";
+import Link from "next/link";
+import Button from "@/common/component/element/Button";
 
 export default function SolutionPage() {
   return (
@@ -12,7 +14,7 @@ export default function SolutionPage() {
       <div className="flex justify-center py-5 ">
         <div className="flex justify-center mt-20 relative ">
           <h1 className="text-4xl md:text-7xl py-5 px-10 text-center dark:bg-gradient-to-r from-white from-50% to-[#979797] bg-text bg-clip-text  text-transparent font-bold">
-          Our Solutions & Apps
+          Our Solutions & Internal Tools
           </h1>
           <div className=" absolute w-[80%] h-[250px] z-[-99] top-[-70px]">
             <Rails />
@@ -25,7 +27,7 @@ export default function SolutionPage() {
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-        Advanced simulation engines and digital twins for higher education logistics.
+        Focused solutions for teams that need real time insight into complex systems, from campus capacity engines to vehicle and infrastructure control layers.
         </p>
       </div>
       <div className="py-10 mt-20 flex gap-10 flex-row justify-center relative flex-wrap">
@@ -55,6 +57,14 @@ export default function SolutionPage() {
           </ComponentTransition>
         ))}
       </div>
+      <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3 mt-10">
+        <Link href='/contact' className="w-full rounded-full">
+        <Button
+          title="Talk About Your Use Case"
+          className="hover:!bgslate hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
+          />
+        </Link>
+      </ComponentTransition>
       <div className="w-full mt-32">
       <Feedback className='!px-0' />
       </div>

@@ -15,10 +15,10 @@ const Card = () => {
       >
         {/* <FaCode size={40} /> */}
         <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Graduation Feasibility
+        Systems Visibility
         </h1>
         <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-3">
-        Can your students graduate on time? We analyze historical course schedules to identify impossible conflicts and bottlenecks.
+        Whether it is graduation feasibility, factory throughput, or customer operations, we illuminate hidden constraints and show where targeted technology actually changes outcomes.
         </p>
       </ComponentTransition>
       <ComponentTransition

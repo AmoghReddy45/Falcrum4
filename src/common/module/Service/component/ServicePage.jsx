@@ -21,151 +21,36 @@ export default function ServicePage() {
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-          Simulation / Analytics / Digital Twins / Optimization
+          Systems Architecture / AI & Data / Digital Twins / Product Delivery
         </p>
       </div>
       <div className="py-10 mt-20 flex gap-10 justify-center flex-row flex-wrap relative">
         <div className="absolute  z-[-9] glowbg w-[100%] md:w-[500px] h-[400px]  left-0 "></div>
-        <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
+        <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[45%] h-[320px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
           <WiDayCloudy size={50} />
           <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Graduation Feasibility
+            Systems and Strategy
           </h1>
           <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-            Student Success First
+            Architecture and Roadmaps
           </h2>
           <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-4">
-            Ensure every major has a clear path to graduation. We analyze course offerings against degree requirements to find and fix impossible conflicts.
+            We help you see the full landscape you operate in, then design the architectures, interfaces, and sequencing needed to move from scattered tools to a coherent system.
           </p>
         </ComponentTransition>
         <ComponentTransition
           delay={0.2}
-          className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <Image
-            src="/solution1.png"
-            alt="Graduation Feasibility"
-            width={400}
-            height={400}
-            loading="lazy"
-            className="w-full object-cover scale-110"
-          />
-        </ComponentTransition>
-        <ComponentTransition
-          delay={0.1}
-          className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <Image
-            src="/solution2.png"
-            alt="Policy Simulation"
-            width={400}
-            height={400}
-            loading="lazy"
-            className="w-full h-[280px] object-cover scale-110"
-          />
-        </ComponentTransition>
-        <ComponentTransition
-          delay={0.1}
-          className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-neutral-950 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
+          className="w-full overflow-hidden px-10 py-5 md:basis-[45%] h-[320px] dark:bg-neutral-950 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl bg-neutral-100"
         >
           <FaCode size={40} />
-          <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Policy Simulation
-          </h1>
-          <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            Test Before You Deploy
-          </h2>
-          <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            Simulate the impact of scheduling changes like prime-time limits on room usage and student bottlenecks.
-          </p>
-        </ComponentTransition>
-
-        <ComponentTransition
-          delay={0.1}
-          className="w-full h-[250px]  px-10 py-5 md:basis-[30%] relative overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <div className="absolute  glowbg inset-0  left-0 "></div>
-          <FaCode size={40} />
-          <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Resource Alignment
-          </h1>
-          <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            Optimize Space
-          </h2>
-          <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            Match classroom inventory to actual pedagogical needs across all colleges and departments.
-          </p>
-        </ComponentTransition>
-        <ComponentTransition
-          delay={0.2}
-          className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <Image
-            src="/solution.png"
-            alt="Resource Alignment"
-            width={400}
-            height={400}
-            loading="lazy"
-            className="w-full object-cover scale-110"
-          />
-        </ComponentTransition>
-        <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
-          <WiDayCloudy size={50} />
           <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Physical Constraints
-          </h1>
-          <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-            Campus Digital Twin
-          </h2>
-          <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-4">
-            Model walking times between buildings to ensure back-to-back classes are physically feasible for students.
-          </p>
-        </ComponentTransition>
-
-      
-        <ComponentTransition
-          delay={0.1}
-          className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <Image
-            src="/img.png"
-            alt="Header Image"
-            width={400}
-            height={400}
-            loading="lazy"
-            className="w-full h-[280px] object-cover scale-110"
-          />
-        </ComponentTransition>
-        <ComponentTransition
-          delay={0.1}
-          className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-neutral-950 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <FaCode size={40} />
-          <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Data Analytics
+            Custom Platforms and Applications
           </h1>
           <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            Actionable Insights
+            Internal Tools and Twins
           </h2>
-          <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            Transform complex campus data into clear, actionable strategies for growth.
-          </p>
-        </ComponentTransition>
-
-        <ComponentTransition
-          delay={0.1}
-          className="w-full h-[250px]  px-10 py-5 md:basis-[30%] relative overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <div className="absolute  glowbg inset-0  left-0 "></div>
-          <FaCode size={40} />
-          <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Digital Twin Platform
-          </h1>
-          <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            Campus Simulation
-          </h2>
-          <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            A comprehensive digital model of programs, schedules, rooms, and buildings.
+          <p className="text-base text-neutral-700 line-clamp-4 dark:text-neutral-400 mt-3">
+            We design and build the software that ties your data and workflows together—internal consoles, digital twins, and web applications that teams and customers rely on every day.
           </p>
         </ComponentTransition>
 
