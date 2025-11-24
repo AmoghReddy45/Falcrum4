@@ -11,14 +11,14 @@ const size = 35
 export const Services = [
   {
     icon: (
-      <FaConnectdevelop
+      <IoIosSchool
         size={size}
         className="group-hover:rotate-90 transition-all duration-300"
         
       />
     ),
-    title: "Free Educational Webinars",
-    desc: "Dive into the essentials of Fourth Industrial Revolution technologies and their impact on your industry.",
+    title: "Graduation Feasibility Analysis",
+    desc: "Analyze historical schedules and program requirements to ensure students can graduate in 4 years without impossible conflicts.",
   },
   {
     icon: (
@@ -27,8 +27,18 @@ export const Services = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Customized Training Solutions",
-    desc: "Enhance your team's expertise with personalized training programs, crafted to meet your unique business needs.",
+    title: "Policy Experiments & Simulation",
+    desc: "Simulate policy changes, such as prime-time limits, to measure their impact on student bottlenecks and graduation rates.",
+  },
+  {
+    icon: (
+      <FaConnectdevelop
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "Campus Logistics Digital Twin",
+    desc: "A comprehensive digital model of programs, schedules, rooms, and buildings to visualize and optimize campus operations.",
   },
   {
     icon: (
@@ -37,81 +47,70 @@ export const Services = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Personalized Technology Audits",
-    desc: "Gain deep insights into your current technology usage and uncover potential areas for improvement.",
+    title: "Classroom & Resource Alignment",
+    desc: "Assess if schools have the right seats in the right buildings, and determine where reassignment or central management is needed.",
   },
   {
     icon: (
-      <MdOutlineAutoAwesomeMotion
+      <IoDiamondOutline
         size={size}
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "Strategic Planning and Comprehensive Audits",
-    desc: "Align your business goals with a strategic technology roadmap designed for sustainable growth.",
-  },
-  {
-    icon: (
-      <MdOutlineAutoAwesomeMotion
-        size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
-      />
-    ),
-    title: "Team Building and Project Management Services",
-    desc: "Let us lead your strategic projects to success with our expert team building and project management support.",
+    title: "Physical Walking Constraints",
+    desc: "Model building locations and travel times to identify and prevent physically impossible back-to-back class schedules.",
   },
 ];
 
 export const ServiceItem = [
   {
-    text1: 'Initiate:',
-    text2: 'Awareness and Foundational Education',
-    title: 'Educational Webinars',
-    Goal: 'Experience an intuitive dashboard design that simplifies navigation and provides at-a-glance insights',
-    Impact: 'Establishes a baseline of tech literacy, sparking curiosity and readiness for deeper learning.',
-    icon : <FaPager className="h-8 w-8 mb-4 dark:text-white text-black place-self-start " />
+    text1: 'Model:',
+    text2: 'Digital Twin Creation',
+    title: 'Campus Digital Twin',
+    Goal: 'Create a high-fidelity digital replica of your campus, including buildings, rooms, and course schedules.',
+    Impact: 'Provides a foundational data layer for accurate simulation and analysis of campus logistics.',
+    icon : <FaConnectdevelop className="h-8 w-8 mb-4 dark:text-white text-black place-self-start " />
   },
   {
-    text1: 'Empower:',
-    text2: 'Targeted Skills Development',
-    title: 'Customized Training Solutions',
-    Goal: `Elevate team capabilities with tailored training in key technologies identified as strategic to the business's future`,
-    Impact: 'Creates a skilled workforce that can actively contribute to tech-driven initiatives and innovation.',
-    icon : <ImProfile className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
+    text1: 'Analyze:',
+    text2: 'Feasibility Assessment',
+    title: 'Graduation Feasibility',
+    Goal: `Determine if students can realistically meet degree requirements under current scheduling constraints.`,
+    Impact: 'Identifies systemic conflicts preventing on-time graduation, allowing for targeted intervention.',
+    icon : <IoIosSchool className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
   {
-    text1: 'Strategize:',
-    text2: 'Visionary Planning and Alignment',
-    title: 'Strategic Planning and Comprehensive Audits',
-    Goal: `Align technology adoption with business goals through strategic planning, facilitated by comprehensive audits and leadership workshops.`,
-    Impact: 'Ensures commitment from top management, aligning the entire organization under a unified strategic technology vision.',
-    icon : <IoDiamondOutline className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
-  },
-  {
-    text1: 'Implement:',
-    text2: 'Project Execution and Integration',
-    title: 'Team Building and Project Management Services',
-    Goal: `Turn strategy into action by executing key technology projects, guided by expert project management to ensure alignment with the strategic vision.`,
-    Impact: 'Tangible improvements and innovations are implemented, demonstrating the value and effectiveness of strategic technology integration.',
-    icon : <CiShop className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
+    text1: 'Simulate:',
+    text2: 'Policy Experimentation',
+    title: 'Scheduling Simulations',
+    Goal: `Test hypothetical scheduling policies (e.g., prime-time restrictions) before implementation.`,
+    Impact: 'Reduces risk by predicting the outcomes of policy changes on student access and resource utilization.',
+    icon : <MdAnimation className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
   {
     text1: 'Optimize:',
-    text2: 'Continuous Support and Evolution',
-    title: 'Support Services (Insights Subscription, Client Portal Access)',
-    Goal: `Maintain momentum by staying informed on the latest tech trends and best practices, and efficiently managing ongoing technology initiatives.`,
-    Impact: 'Keeps the organization at the cutting edge, ready to adapt and evolve as new technologies and opportunities arise.',
-    icon : <IoIosSchool className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
+    text2: 'Resource Allocation',
+    title: 'Classroom Alignment',
+    Goal: `Match physical resources (seats, rooms) to actual academic demand across departments.`,
+    Impact: 'Maximizes space utilization and ensures that room assignments support pedagogical needs.',
+    icon : <MdOutlineAutoAwesomeMotion className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
   {
-    text1: 'Iterate:',
-    text2: 'Feedback Loop for Improvement',
-    title: 'Post-Implementation Reviews and Continuous Engagement',
-    Goal: `Leverage insights from completed projects and ongoing operations to refine strategies, training programs, and project execution methods.`,
-    Impact: `Cultivates a culture of continuous improvement, where each cycle of the flywheel enhances the organization's efficiency, innovation, and competitive edge.`,
-    icon : <IoIosSchool className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
+    text1: 'Refine:',
+    text2: 'Physical Constraints',
+    title: 'Logistics Modeling',
+    Goal: `Incorporate travel times and physical distances into schedule validation.`,
+    Impact: 'Eliminates "impossible" schedules where students cannot physically travel between classes in time.',
+    icon : <IoDiamondOutline className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
+  },
+  {
+    text1: 'Evolve:',
+    text2: 'Continuous Improvement',
+    title: 'Adaptive Operations',
+    Goal: `Use the digital twin to continuously adapt to changing enrollment numbers and program requirements.`,
+    Impact: `Ensures that campus logistics remain efficient and student-centric as the institution grows and changes.`,
+    icon : <ImProfile className="h-8 w-8 mb-4 dark:text-white text-black place-self-start  " />
   },
   
 
 ];
-

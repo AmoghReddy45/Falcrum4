@@ -16,17 +16,12 @@ export default function ServicePage() {
             Service & Expertise
           </h1>
           <div className=" absolute w-[80%] h-[250px] z-[-99] top-[-70px]">
-            <Rails />
-            <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-            <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
           </div>
         </div>
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-          Websites / Applications / Web3 / Blockchain
+          Simulation / Analytics / Digital Twins / Optimization
         </p>
       </div>
       <div className="py-10 mt-20 flex gap-10 justify-center flex-row flex-wrap relative">
@@ -34,15 +29,13 @@ export default function ServicePage() {
         <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
           <WiDayCloudy size={50} />
           <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Lorem Ipsum
+            Graduation Feasibility
           </h1>
           <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-            Create Fast And Simple
+            Student Success First
           </h2>
           <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eos
-            voluptatem quo laborum perferendis eligendi voluptas nam dignissimos
-            hic dolorem inventore optio. Eaque, deserunt.
+            Ensure every major has a clear path to graduation. We analyze course offerings against degree requirements to find and fix impossible conflicts.
           </p>
         </ComponentTransition>
         <ComponentTransition
@@ -50,8 +43,8 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/img1.png"
-            alt="Header Image"
+            src="/solution1.png"
+            alt="Graduation Feasibility"
             width={400}
             height={400}
             loading="lazy"
@@ -63,8 +56,8 @@ export default function ServicePage() {
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/img.png"
-            alt="Header Image"
+            src="/solution2.png"
+            alt="Policy Simulation"
             width={400}
             height={400}
             loading="lazy"
@@ -77,14 +70,13 @@ export default function ServicePage() {
         >
           <FaCode size={40} />
           <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Custom Web Development
+            Policy Simulation
           </h1>
           <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            SPA / MPA
+            Test Before You Deploy
           </h2>
           <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            Tailored website solutions to meet specific business needs and
-            goals.
+            Simulate the impact of scheduling changes like prime-time limits on room usage and student bottlenecks.
           </p>
         </ComponentTransition>
 
@@ -95,14 +87,13 @@ export default function ServicePage() {
           <div className="absolute  glowbg inset-0  left-0 "></div>
           <FaCode size={40} />
           <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Custom Web Development
+            Resource Alignment
           </h1>
           <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            SPA / MPA
+            Optimize Space
           </h2>
           <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            Tailored website solutions to meet specific business needs and
-            goals.
+            Match classroom inventory to actual pedagogical needs across all colleges and departments.
           </p>
         </ComponentTransition>
         <ComponentTransition
@@ -110,8 +101,8 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/img1.png"
-            alt="Header Image"
+            src="/solution.png"
+            alt="Resource Alignment"
             width={400}
             height={400}
             loading="lazy"
@@ -121,15 +112,13 @@ export default function ServicePage() {
         <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
           <WiDayCloudy size={50} />
           <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Lorem Ipsum
+            Physical Constraints
           </h1>
           <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-            Create Fast And Simple
+            Campus Digital Twin
           </h2>
           <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eos
-            voluptatem quo laborum perferendis eligendi voluptas nam dignissimos
-            hic dolorem inventore optio. Eaque, deserunt.
+            Model walking times between buildings to ensure back-to-back classes are physically feasible for students.
           </p>
         </ComponentTransition>
 
@@ -153,14 +142,13 @@ export default function ServicePage() {
         >
           <FaCode size={40} />
           <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Custom Web Development
+            Data Analytics
           </h1>
           <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            SPA / MPA
+            Actionable Insights
           </h2>
           <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            Tailored website solutions to meet specific business needs and
-            goals.
+            Transform complex campus data into clear, actionable strategies for growth.
           </p>
         </ComponentTransition>
 
@@ -171,14 +159,13 @@ export default function ServicePage() {
           <div className="absolute  glowbg inset-0  left-0 "></div>
           <FaCode size={40} />
           <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            Custom Web Development
+            Digital Twin Platform
           </h1>
           <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-            SPA / MPA
+            Campus Simulation
           </h2>
           <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-            Tailored website solutions to meet specific business needs and
-            goals.
+            A comprehensive digital model of programs, schedules, rooms, and buildings.
           </p>
         </ComponentTransition>
 

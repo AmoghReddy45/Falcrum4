@@ -14,7 +14,7 @@ import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
 
 
-const MARGIN_X = 0;
+const MARGIN_X = 80;
 const MARGIN_Y = 80;
 const INFLEXION_PADDING = 0; // Space between donut and label inflexion point
 
@@ -75,13 +75,14 @@ const DonutChart = ({ width, height, data, Content }) => {
 
   const pie = useMemo(() => d3.pie().value((d) => d.value)(data), [data]);
   const arcGenerator = useMemo(() => d3.arc().innerRadius(innerRadius).outerRadius(radius), [innerRadius, radius]);
+  const labelArcGenerator = useMemo(() => d3.arc().innerRadius(radius + 5).outerRadius(radius + 5), [radius]);
 
   const shapes = pie.map((slice, i) => {
     const slicePath = arcGenerator(slice); // Correctly define slicePath here
     const centroid = arcGenerator.centroid(slice);
-    const inflexionPoint = arcGenerator.centroid(slice); // This is just an example; adjust as needed
+    const inflexionPoint = labelArcGenerator.centroid(slice); // Use the label arc for positioning
     const isRightLabel = inflexionPoint[0] > 0;
-    const labelPosX = inflexionPoint[0] + (isRightLabel ? 1 : -1) * 50; // Example adjustment for label position
+    const labelPosX = inflexionPoint[0] + (isRightLabel ? 1 : -1) * 5; // Push slightly further out
     const textAnchor = isRightLabel ? "start" : "end";
     const label = `${slice.data.name}`; // Ensure slice.data.name exists and is correct
 

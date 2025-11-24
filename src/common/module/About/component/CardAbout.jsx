@@ -26,7 +26,7 @@ const CardAbout = () => {
               Mission
             </h1> */}
             <p className="text-base text-neutral-800 dark:text-neutral-300 mt-5 ">
-            Understanding the monumental impact of 4IR technologies, Daniel set out to ensure that businesses—especially professional service firms and startups—aren't just participants in this new era but are at its forefront, leading the charge. His mission with Fulcrum Services is clear: to empower businesses to harness the transformative power of technologies such as IoT, Web3, blockchain, and artificial intelligence, ensuring they not only thrive but also drive positive change in this new revolution.
+            Understanding the complex challenges of modern university operations, Daniel set out to ensure that institutions aren't just reacting to logistical problems but are solving them with foresight. His mission with Fulcrum Services is clear: to empower higher education with the power of digital twins, simulation engines, and predictive analytics, ensuring they maximize student success and operational efficiency.
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const CardAbout = () => {
             Vision
           </h1>
           <p className="text-base text-neutral-800 dark:text-neutral-300 mt-5 grow">
-          Fulcrum Services wasn't just born from a fascination with technology; it was ignited by a profound realization: the Fourth Industrial Revolution (4IR) represents the most transformative era in our lifetimes. Daniel Bron, our founder, recognized early on—not merely as a visionary but as an ardent believer in the power of 4IR technologies—that this revolution has the potential to redefine the very fabric of society, business, and the global economy. From his initial forays into the world of crypto and Java, sparked by his passion for video games at a young age, Daniel saw more than just the technology; he saw a future where businesses leveraged these innovations to create a world of endless possibilities.
+          Fulcrum Services was born from a realization that data without context is just noise. Our founder recognized that the complex ecosystem of a university campus—with its interdependencies between schedules, rooms, and student paths—required a new kind of modeling. We moved beyond simple spreadsheets to create dynamic digital twins that respect the physical and temporal reality of campus life.
           </p>
         </div>
         <div className=" overflow-hidden mt-10  bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
