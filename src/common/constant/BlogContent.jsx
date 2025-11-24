@@ -7,104 +7,75 @@ export const BlogContent = [
     title: "Solidity Law: Turning A Law Firm Into A Legal Systems Company",
     desc: "How a boutique business and finance firm used custom backend systems and applied AI to run like a product company while keeping lawyers, not software, in charge of judgment and advice.",
     tag: "Case Study",
-    content: `The Challenge
+    content: (
+      <>
+        <h2 className="text-3xl font-bold mb-4 mt-8">The Challenge</h2>
+        <p className="mb-4">Solidity Law started as many strong boutique firms do. A small group of high performing attorneys with deep experience in commercial, finance, and emerging technology matters, serving a client base that expected speed, sophistication, and clear answers.</p>
+        <p className="mb-4">The firm had the right people. The problem was the system around them.</p>
+        <p className="mb-2">Matters were tracked across a mix of email, generic practice management tools, and spreadsheets.</p>
+        <p className="mb-2">Partners often repeated the same explanations, risk frameworks, and negotiation strategies across clients and deals.</p>
+        <p className="mb-2">Intake, conflict checks, and early triage consumed valuable time and introduced friction for good clients.</p>
+        <p className="mb-4">There was no structured way to capture institutional knowledge, clause history, or deal positions in a way the next matter could actually use.</p>
+        <p className="mb-4">The attorneys were already giving high quality advice. They wanted the firm to operate like a disciplined product company around that advice, not like a loose collection of individual practices.</p>
 
-Solidity Law started as many strong boutique firms do. A small group of high performing attorneys with deep experience in commercial, finance, and emerging technology matters, serving a client base that expected speed, sophistication, and clear answers.
+        <h2 className="text-3xl font-bold mb-4 mt-8">Understanding The Work</h2>
+        <p className="mb-4">Fulcrum Services began by going deep into how Solidity actually practiced law.</p>
+        <p className="mb-4">We did not start with prompt libraries or off the shelf "AI for lawyers" tools. We started with questions.</p>
+        <p className="mb-2">What are the conversations that partners have over and over again with new clients</p>
+        <p className="mb-2">Where do associates struggle to understand what "good" looks like on a document or a negotiation position</p>
+        <p className="mb-4">Which internal handoffs introduce the most risk of delay or dropped context</p>
+        <p className="mb-4">By shadowing matters from intake through closing, a few core themes emerged.</p>
+        <p className="mb-2 font-semibold">Patterns in matters were not captured</p>
+        <p className="mb-4">Similar deals were being run from scratch each time. Clause history, typical fallback positions, and risk tolerances lived in individual inboxes and memories.</p>
+        <p className="mb-2 font-semibold">Feedback to attorneys was informal</p>
+        <p className="mb-4">Partners gave excellent feedback on drafts and strategy, but it was ad hoc. There was no systematized way to turn that feedback into reusable guidance the next associate could see while they worked.</p>
+        <p className="mb-2 font-semibold">Operations lagged the quality of advice</p>
+        <p className="mb-4">The client experience on substance was strong. The experience on status tracking, predictability, and reporting did not match it.</p>
+        <p className="mb-4">The opportunity was clear. Build a backend that treats legal work as a series of structured decisions and artifacts, while preserving the central role of attorney judgment and ethical boundaries.</p>
 
-The firm had the right people. The problem was the system around them.
+        <h2 className="text-3xl font-bold mb-4 mt-8">Building The Legal Operating System</h2>
+        <p className="mb-4">The solution for Solidity Law had three major pillars.</p>
 
-Matters were tracked across a mix of email, generic practice management tools, and spreadsheets.
-Partners often repeated the same explanations, risk frameworks, and negotiation strategies across clients and deals.
-Intake, conflict checks, and early triage consumed valuable time and introduced friction for good clients.
-There was no structured way to capture institutional knowledge, clause history, or deal positions in a way the next matter could actually use.
+        <h3 className="text-2xl font-bold mb-3 mt-6">1. Matter Graph And Knowledge Backbone</h3>
+        <p className="mb-4">We designed a "matter graph" that modeled how the firm actually works.</p>
+        <p className="mb-2">Each matter stored parties, documents, issues, key dates, and decision points in a structured way.</p>
+        <p className="mb-2">Clauses, negotiation positions, and outcomes were linked to matter types, industries, and counterparties.</p>
+        <p className="mb-4">Partner comments and feedback were captured in context, tagged to sections and issues rather than buried in email.</p>
+        <p className="mb-4">This turned the firm's collective experience into something queryable.</p>
+        <p className="mb-4">An associate drafting an agreement for a new client could see how similar deals had been handled in the past, which clauses had triggered pushback, and what fallback language partners considered acceptable in that context.</p>
 
-The attorneys were already giving high quality advice. They wanted the firm to operate like a disciplined product company around that advice, not like a loose collection of individual practices.
+        <h3 className="text-2xl font-bold mb-3 mt-6">2. Safe Applied AI For Internal Use</h3>
+        <p className="mb-4">Once the backbone was in place, we layered in applied AI. The design principle was strict.</p>
+        <p className="mb-4 font-semibold">The system can propose. Only attorneys can decide.</p>
+        <p className="mb-2">Examples include:</p>
+        <p className="mb-2 font-semibold">Draft review support</p>
+        <p className="mb-4">Models highlighted potentially inconsistent clauses, missing provisions based on deal profile, and deviations from the firm's usual positions. The system surfaced questions and suggestions. It did not approve or reject anything on its own.</p>
+        <p className="mb-2 font-semibold">Issue spotting memory</p>
+        <p className="mb-4">For recurring regulatory or structural issues, the system reminded attorneys of prior guidance, memos, or playbooks relevant to the current matter, without pushing canned advice to clients.</p>
+        <p className="mb-2 font-semibold">Plain language explanations</p>
+        <p className="mb-4">For internal use, the system helped attorneys generate clear, client ready explanations of complex structures based on templates and past communications, which attorneys then reviewed and customized.</p>
+        <p className="mb-4">All access, logging, and data handling were structured to respect confidentiality and professional responsibility rules. There was no direct client facing "AI lawyer." There was a firm facing system that made good lawyers faster and more consistent.</p>
 
-Understanding The Work
+        <h3 className="text-2xl font-bold mb-3 mt-6">3. Operational Layer For Firm Leadership</h3>
+        <p className="mb-4">On top of the matter graph and AI support, we exposed a simple but powerful operational layer for partners and management.</p>
+        <p className="mb-2">Live view of matters by stage, risk profile, and likely effort.</p>
+        <p className="mb-2">Insights into which types of work drove the most value and which drained capacity.</p>
+        <p className="mb-4">Early warnings for stalled matters, overdue deliverables, and fragile client relationships.</p>
+        <p className="mb-4">This let the firm act like a product company that understands its pipeline and portfolio, not just a group of busy professionals tracking their own hours.</p>
 
-Fulcrum Services began by going deep into how Solidity actually practiced law.
-
-We did not start with prompt libraries or off the shelf "AI for lawyers" tools. We started with questions.
-
-What are the conversations that partners have over and over again with new clients
-Where do associates struggle to understand what "good" looks like on a document or a negotiation position
-Which internal handoffs introduce the most risk of delay or dropped context
-
-By shadowing matters from intake through closing, a few core themes emerged.
-
-Patterns in matters were not captured
-Similar deals were being run from scratch each time. Clause history, typical fallback positions, and risk tolerances lived in individual inboxes and memories.
-
-Feedback to attorneys was informal
-Partners gave excellent feedback on drafts and strategy, but it was ad hoc. There was no systematized way to turn that feedback into reusable guidance the next associate could see while they worked.
-
-Operations lagged the quality of advice
-The client experience on substance was strong. The experience on status tracking, predictability, and reporting did not match it.
-
-The opportunity was clear. Build a backend that treats legal work as a series of structured decisions and artifacts, while preserving the central role of attorney judgment and ethical boundaries.
-
-Building The Legal Operating System
-
-The solution for Solidity Law had three major pillars.
-
-1. Matter Graph And Knowledge Backbone
-
-We designed a "matter graph" that modeled how the firm actually works.
-
-Each matter stored parties, documents, issues, key dates, and decision points in a structured way.
-Clauses, negotiation positions, and outcomes were linked to matter types, industries, and counterparties.
-Partner comments and feedback were captured in context, tagged to sections and issues rather than buried in email.
-
-This turned the firm's collective experience into something queryable.
-
-An associate drafting an agreement for a new client could see how similar deals had been handled in the past, which clauses had triggered pushback, and what fallback language partners considered acceptable in that context.
-
-2. Safe Applied AI For Internal Use
-
-Once the backbone was in place, we layered in applied AI. The design principle was strict.
-
-The system can propose. Only attorneys can decide.
-
-Examples include:
-
-Draft review support
-Models highlighted potentially inconsistent clauses, missing provisions based on deal profile, and deviations from the firm's usual positions. The system surfaced questions and suggestions. It did not approve or reject anything on its own.
-
-Issue spotting memory
-For recurring regulatory or structural issues, the system reminded attorneys of prior guidance, memos, or playbooks relevant to the current matter, without pushing canned advice to clients.
-
-Plain language explanations
-For internal use, the system helped attorneys generate clear, client ready explanations of complex structures based on templates and past communications, which attorneys then reviewed and customized.
-
-All access, logging, and data handling were structured to respect confidentiality and professional responsibility rules. There was no direct client facing "AI lawyer." There was a firm facing system that made good lawyers faster and more consistent.
-
-3. Operational Layer For Firm Leadership
-
-On top of the matter graph and AI support, we exposed a simple but powerful operational layer for partners and management.
-
-Live view of matters by stage, risk profile, and likely effort.
-Insights into which types of work drove the most value and which drained capacity.
-Early warnings for stalled matters, overdue deliverables, and fragile client relationships.
-
-This let the firm act like a product company that understands its pipeline and portfolio, not just a group of busy professionals tracking their own hours.
-
-The Impact
-
-Within the first year, Solidity Law saw tangible changes in how it operated.
-
-Higher quality, more consistent work product
-Associates had clearer guidance, better examples, and live feedback from the system. Partner review remained central, but it was focused on judgment calls rather than spotting basic errors or omissions.
-
-Faster ramp for new attorneys
-New hires could learn how the firm "thinks" about specific deal types by exploring prior matters and annotated clauses, rather than relying solely on hallway conversations and scattered precedent folders.
-
-Better firm level decision making
-Leadership gained a real view into which practice areas, matter types, and client profiles were aligned with the firm's strategy and economics. The firm adjusted its focus accordingly.
-
-A defensible "tech law firm" posture
-Solidity did not just add AI to its marketing materials. It built a real, internal operating system that made its lawyers better. The firm could speak credibly about technology in pitches because the partners actually used it in their own work.
-
-For Fulcrum Services, Solidity Law confirmed that the future of legal innovation is not replacing lawyers. It is giving the right lawyers a system that captures their best thinking, feeds it back to the team at the right moments, and lets them run their firm with the same discipline as a top tier product company.`,
+        <h2 className="text-3xl font-bold mb-4 mt-8">The Impact</h2>
+        <p className="mb-4">Within the first year, Solidity Law saw tangible changes in how it operated.</p>
+        <p className="mb-2 font-semibold">Higher quality, more consistent work product</p>
+        <p className="mb-4">Associates had clearer guidance, better examples, and live feedback from the system. Partner review remained central, but it was focused on judgment calls rather than spotting basic errors or omissions.</p>
+        <p className="mb-2 font-semibold">Faster ramp for new attorneys</p>
+        <p className="mb-4">New hires could learn how the firm "thinks" about specific deal types by exploring prior matters and annotated clauses, rather than relying solely on hallway conversations and scattered precedent folders.</p>
+        <p className="mb-2 font-semibold">Better firm level decision making</p>
+        <p className="mb-4">Leadership gained a real view into which practice areas, matter types, and client profiles were aligned with the firm's strategy and economics. The firm adjusted its focus accordingly.</p>
+        <p className="mb-2 font-semibold">A defensible "tech law firm" posture</p>
+        <p className="mb-4">Solidity did not just add AI to its marketing materials. It built a real, internal operating system that made its lawyers better. The firm could speak credibly about technology in pitches because the partners actually used it in their own work.</p>
+        <p className="mb-4">For Fulcrum Services, Solidity Law confirmed that the future of legal innovation is not replacing lawyers. It is giving the right lawyers a system that captures their best thinking, feeds it back to the team at the right moments, and lets them run their firm with the same discipline as a top tier product company.</p>
+      </>
+    ),
   },
   {
     id: 2,

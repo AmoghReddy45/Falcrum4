@@ -17,10 +17,6 @@ export const NavigationItem = [
         src: '/success-stories',
         title: 'Success Stories'
     },
-    {
-        src: '/Insights',
-        title: 'Insights'
-    },
 
     // {
     //     src: '/blog',
