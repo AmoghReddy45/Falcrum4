@@ -9,6 +9,7 @@ import { Providers } from '@/common/component/element/Providers';
 const interFont = Inter({ subsets: ['latin'] });
 
 export const metadata = {
+  metadataBase: new URL('https://fulcrum4.io'),
   title: 'Falcrum^4',
   description: 'Igniting Innovation, Engineering Futures',
   openGraph: {
