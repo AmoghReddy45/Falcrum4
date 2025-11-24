@@ -111,74 +111,56 @@ Most importantly, the same pattern that powers the first program can be reused a
     title: "Ukraine Ministry of Digital Transformation: Crypto Rails Under Fire",
     desc: "A look at how Ukraine's Ministry of Digital Transformation used purpose built crypto payment rails to turn global digital donations into auditable, real world procurement during the early months of the war.",
     tag: "Case Study",
-    content: `The Challenge
+    content: (
+      <>
+        <h2 className="text-3xl font-bold mb-4 mt-8">The Challenge</h2>
+        <p className="mb-4">When the war escalated, financial support for Ukraine began arriving through every possible channel. Traditional government accounts were not the only path anymore. Large volumes of crypto donations flowed in from individuals, DAOs, exchanges, and corporate treasuries.</p>
+        <p className="mb-4">The Ministry of Digital Transformation faced a set of problems that did not fit any off the shelf system:</p>
+        <p className="mb-2">Donations arrived in multiple currencies and on multiple chains.</p>
+        <p className="mb-2">Conversion to usable fiat needed to be fast, controlled, and compliant.</p>
+        <p className="mb-2">Procurement teams needed protective equipment, hardware, and infrastructure in days, not weeks.</p>
+        <p className="mb-4">Every movement of funds had to withstand domestic and international scrutiny.</p>
+        <p className="mb-4">Existing financial and procurement systems were too slow, too siloed, or too rigid for this environment. The Ministry needed a way to route crypto inflows into vetted procurement flows without losing speed, control, or traceability.</p>
 
-When the war escalated, financial support for Ukraine began arriving through every possible channel. Traditional government accounts were not the only path anymore. Large volumes of crypto donations flowed in from individuals, DAOs, exchanges, and corporate treasuries.
+        <h2 className="text-3xl font-bold mb-4 mt-8">Understanding The Work</h2>
+        <p className="mb-4">Instead of starting with wallets and exchanges, Fulcrum Services started with the real work that had to get done.</p>
+        <p className="mb-4">We spent our first weeks with stakeholders from digital, finance, and procurement mapping the true end to end flow:</p>
+        <p className="mb-2">How a donor decides to send funds and which channels they use.</p>
+        <p className="mb-2">How those funds arrive, are acknowledged, and are held.</p>
+        <p className="mb-2">How conversion decisions are made and who must approve them.</p>
+        <p className="mb-2">How procurement teams request, prioritize, and execute purchases.</p>
+        <p className="mb-4">How reporting, audit, and public communication need to look.</p>
+        <p className="mb-4">This exercise made two things clear.</p>
+        <p className="mb-4">First, the job was not to create a flashy donation page. The job was to give a small group of decision makers a control layer that spanned wallets, exchanges, banks, and procurement.</p>
+        <p className="mb-4">Second, the most serious risks were not in the cryptography itself. They were in governance, fat finger errors, double commitments, and unclear ownership.</p>
 
-The Ministry of Digital Transformation faced a set of problems that did not fit any off the shelf system:
+        <h2 className="text-3xl font-bold mb-4 mt-8">Building The Rails</h2>
+        <p className="mb-4">With the real workflow mapped, we designed and implemented a crypto to procurement rail system with three simple principles.</p>
+        <h3 className="text-2xl font-bold mb-3 mt-6">Separate custody from control</h3>
+        <p className="mb-4">Wallets and exchanges already handled custody well. The new system focused on how decisions were proposed, approved, and recorded. Each transaction moved through defined states with clear owners, so no one person could both propose and approve movement of funds.</p>
+        <h3 className="text-2xl font-bold mb-3 mt-6">Treat every donation as part of a portfolio</h3>
+        <p className="mb-4">Instead of handling each donation as a one off, the system tracked total inflows, currency mix, and liquidity windows. This allowed the Ministry to plan conversions in batches, reduce fees, and match currency decisions to expected procurement needs.</p>
+        <h3 className="text-2xl font-bold mb-3 mt-6">Make the path from crypto to contract visible</h3>
+        <p className="mb-4">We stitched together data from wallets, exchanges, banking partners, and procurement systems into a single model. For any unit of value, leaders could see where it came from, how it was converted, which contract it funded, and what was delivered.</p>
+        <p className="mb-4">The result was not a single monolithic platform. It was a control layer that sat over existing tools, enforced policy, and produced a clear record of decisions and outcomes.</p>
 
-Donations arrived in multiple currencies and on multiple chains.
-Conversion to usable fiat needed to be fast, controlled, and compliant.
-Procurement teams needed protective equipment, hardware, and infrastructure in days, not weeks.
-Every movement of funds had to withstand domestic and international scrutiny.
+        <h2 className="text-3xl font-bold mb-4 mt-8">Operating Under Wartime Conditions</h2>
+        <p className="mb-4">Designing a system on paper is one thing. Running it while air raid sirens are going off is another.</p>
+        <p className="mb-4">We kept the implementation lightweight and iterative:</p>
+        <p className="mb-2">Initial flows focused on a narrow set of high urgency equipment categories that procurement already knew how to source.</p>
+        <p className="mb-2">Approval workflows mirrored existing chains of command, so leaders did not have to learn an entirely new process while under pressure.</p>
+        <p className="mb-2">Dashboards exposed a small number of critical metrics: available crypto balance by asset, pending conversion volume, commitments by category, and days of runway for key items.</p>
+        <p className="mb-4">Feedback loops were tight. If a step created friction for procurement teams or slowed down urgent buys, we adjusted the process, then tightened controls elsewhere to keep the overall risk profile acceptable.</p>
 
-Existing financial and procurement systems were too slow, too siloed, or too rigid for this environment. The Ministry needed a way to route crypto inflows into vetted procurement flows without losing speed, control, or traceability.
-
-Understanding The Work
-
-Instead of starting with wallets and exchanges, Fulcrum Services started with the real work that had to get done.
-
-We spent our first weeks with stakeholders from digital, finance, and procurement mapping the true end to end flow:
-
-How a donor decides to send funds and which channels they use.
-How those funds arrive, are acknowledged, and are held.
-How conversion decisions are made and who must approve them.
-How procurement teams request, prioritize, and execute purchases.
-How reporting, audit, and public communication need to look.
-
-This exercise made two things clear.
-
-First, the job was not to create a flashy donation page. The job was to give a small group of decision makers a control layer that spanned wallets, exchanges, banks, and procurement.
-
-Second, the most serious risks were not in the cryptography itself. They were in governance, fat finger errors, double commitments, and unclear ownership.
-
-Building The Rails
-
-With the real workflow mapped, we designed and implemented a crypto to procurement rail system with three simple principles.
-
-Separate custody from control
-Wallets and exchanges already handled custody well. The new system focused on how decisions were proposed, approved, and recorded. Each transaction moved through defined states with clear owners, so no one person could both propose and approve movement of funds.
-
-Treat every donation as part of a portfolio
-Instead of handling each donation as a one off, the system tracked total inflows, currency mix, and liquidity windows. This allowed the Ministry to plan conversions in batches, reduce fees, and match currency decisions to expected procurement needs.
-
-Make the path from crypto to contract visible
-We stitched together data from wallets, exchanges, banking partners, and procurement systems into a single model. For any unit of value, leaders could see where it came from, how it was converted, which contract it funded, and what was delivered.
-
-The result was not a single monolithic platform. It was a control layer that sat over existing tools, enforced policy, and produced a clear record of decisions and outcomes.
-
-Operating Under Wartime Conditions
-
-Designing a system on paper is one thing. Running it while air raid sirens are going off is another.
-
-We kept the implementation lightweight and iterative:
-
-Initial flows focused on a narrow set of high urgency equipment categories that procurement already knew how to source.
-Approval workflows mirrored existing chains of command, so leaders did not have to learn an entirely new process while under pressure.
-Dashboards exposed a small number of critical metrics: available crypto balance by asset, pending conversion volume, commitments by category, and days of runway for key items.
-Feedback loops were tight. If a step created friction for procurement teams or slowed down urgent buys, we adjusted the process, then tightened controls elsewhere to keep the overall risk profile acceptable.
-
-The Impact
-
-Within the first phase of the project, the Ministry gained a clear, repeatable path from digital donation to delivered equipment.
-
-Crypto inflows could be accepted at scale without creating new manual reconciliation work for finance teams.
-Conversion and procurement decisions were made faster, with explicit approvals and a traceable chain from donor to vendor.
-Leadership had a near real time view of how much support had arrived, what had been committed, and where gaps remained.
-
-Equally important, the Ministry emerged with a reusable pattern for future digital asset initiatives. The same control layer approach can support disaster response, focused development programs, or new forms of public private partnership where digital value needs to become accountable real world action.
-
-For Fulcrum Services, the engagement reinforced a core belief. The hardest part of working with new financial rails is not the technology itself. It is designing a system that respects law, politics, and human limits while still moving fast when people are counting on it.`,
+        <h2 className="text-3xl font-bold mb-4 mt-8">The Impact</h2>
+        <p className="mb-4">Within the first phase of the project, the Ministry gained a clear, repeatable path from digital donation to delivered equipment.</p>
+        <p className="mb-2">Crypto inflows could be accepted at scale without creating new manual reconciliation work for finance teams.</p>
+        <p className="mb-2">Conversion and procurement decisions were made faster, with explicit approvals and a traceable chain from donor to vendor.</p>
+        <p className="mb-4">Leadership had a near real time view of how much support had arrived, what had been committed, and where gaps remained.</p>
+        <p className="mb-4">Equally important, the Ministry emerged with a reusable pattern for future digital asset initiatives. The same control layer approach can support disaster response, focused development programs, or new forms of public private partnership where digital value needs to become accountable real world action.</p>
+        <p className="mb-4">For Fulcrum Services, the engagement reinforced a core belief. The hardest part of working with new financial rails is not the technology itself. It is designing a system that respects law, politics, and human limits while still moving fast when people are counting on it.</p>
+      </>
+    ),
   },
   {
     id: 4,
@@ -188,84 +170,63 @@ For Fulcrum Services, the engagement reinforced a core belief. The hardest part 
     title: "Crypto Infrastructure Programs: Building Smart Contracts And Control Layers For Hundreds Of Millions In Value",
     desc: "How a group of digital asset programs used conservative smart contracts and strict operational security to move hundreds of millions of dollars in volume without a single loss event.",
     tag: "Case Study",
-    content: `The Challenge
+    content: (
+      <>
+        <h2 className="text-3xl font-bold mb-4 mt-8">The Challenge</h2>
+        <p className="mb-4">Several clients came to us with the same uncomfortable truth.</p>
+        <p className="mb-4">Technically, the contracts worked. Economically, the token models made sense. The real existential risk sat somewhere else: people with keys.</p>
+        <p className="mb-4">Senior engineers, early employees, or poorly defined "admins" had the practical ability to move large pools of funds. Multi sigs were configured in theory, but in practice key holders shared devices, reused passwords, or held overlapping permissions that made internal theft or coercion the biggest real risk.</p>
+        <p className="mb-4">They needed infrastructure that could:</p>
+        <p className="mb-2">Safely custody and route hundreds of millions in value across multiple chains</p>
+        <p className="mb-2">Enforce clear separation of duties so no single engineer or small group could quietly drain funds</p>
+        <p className="mb-2">Provide auditable controls for boards, investors, and regulators</p>
+        <p className="mb-4">Integrate with off chain processes for approvals, accounting, and compliance reporting</p>
+        <p className="mb-4">The public tooling in DeFi was built for speed. These clients needed something built for survival.</p>
 
-Several clients came to us with the same uncomfortable truth.
+        <h2 className="text-3xl font-bold mb-4 mt-8">Understanding The Work</h2>
+        <p className="mb-4">We approached these engagements as control system design problems, not just contract jobs.</p>
+        <p className="mb-4">For each client we mapped three layers:</p>
+        <p className="mb-2 font-semibold">Economic design</p>
+        <p className="mb-4">What are the intended cash flows, rewards, and failure modes of the program. We stress tested scenarios such as extreme market moves, liquidity shocks, and governance capture.</p>
+        <p className="mb-2 font-semibold">Operational reality and opsec</p>
+        <p className="mb-4">Who actually sits at a keyboard with signing authority, how keys are generated and stored, what the real world social dynamics look like, and how incidents would be handled at 3 a.m. on a weekend.</p>
+        <p className="mb-2 font-semibold">Technical surface area</p>
+        <p className="mb-4">Which chains, token standards, or external protocols the system needed to touch, and where those integrations might introduce new ways for insiders to abuse access.</p>
+        <p className="mb-4">Only when we understood where people, power, and code intersected did we move into architecture.</p>
 
-Technically, the contracts worked. Economically, the token models made sense. The real existential risk sat somewhere else: people with keys.
+        <h2 className="text-3xl font-bold mb-4 mt-8">Building The System</h2>
+        <p className="mb-4">Across multiple programs we delivered a pattern that combines conservative smart contracts with strict operational security.</p>
 
-Senior engineers, early employees, or poorly defined "admins" had the practical ability to move large pools of funds. Multi sigs were configured in theory, but in practice key holders shared devices, reused passwords, or held overlapping permissions that made internal theft or coercion the biggest real risk.
+        <h3 className="text-2xl font-bold mb-3 mt-6">Hardened Smart Contract Suite</h3>
+        <p className="mb-4">We implemented a modular contract stack that handled:</p>
+        <p className="mb-2">Treasury custody with explicit roles for spending, staking, and configuration</p>
+        <p className="mb-2">Time based vesting with hard coded limits and emergency pause mechanisms</p>
+        <p className="mb-4">Liquidity and incentive programs where emission rates, caps, and emergency parameters can be adjusted, but only through structured governance actions</p>
+        <p className="mb-4">Contracts were intentionally simple, written in a restricted subset of Solidity, and passed through multiple rounds of internal review and third party audit.</p>
 
-They needed infrastructure that could:
+        <h3 className="text-2xl font-bold mb-3 mt-6">Separation Of Powers And Human Controls</h3>
+        <p className="mb-4">To address the real opsec problem, we designed the human layer just as carefully as the code.</p>
+        <p className="mb-2">Distinct on chain roles for proposing, approving, and executing transactions so that no individual could create and push a high value transfer alone</p>
+        <p className="mb-2">Multi signature policies that required a mix of internal leaders and independent trustees, with geographic and organizational separation</p>
+        <p className="mb-2">Withdrawal rate limits and time locks on large moves so that even a compromised key set would trigger alerts and provide time to intervene</p>
+        <p className="mb-4">Runbooks and training for key holders focused on device hygiene, phishing resistance, and escalation paths</p>
+        <p className="mb-4">The objective was to make it impossible for a single engineer having a bad day to become an existential risk.</p>
 
-Safely custody and route hundreds of millions in value across multiple chains
-Enforce clear separation of duties so no single engineer or small group could quietly drain funds
-Provide auditable controls for boards, investors, and regulators
-Integrate with off chain processes for approvals, accounting, and compliance reporting
+        <h3 className="text-2xl font-bold mb-3 mt-6">Off Chain Monitoring And Evidence</h3>
+        <p className="mb-4">We wrapped the on chain system in a monitoring and reporting layer:</p>
+        <p className="mb-2">Agents watched for out of pattern actions, such as new signers being added, parameters being changed, or unusually large withdrawals, and alerted operations and board members within minutes</p>
+        <p className="mb-2">Data pipelines streamed transaction data into internal analytics and finance systems so that treasury views, P&L, and on chain reality always matched</p>
+        <p className="mb-4">Every high value transaction left both an on chain trace and a signed, off chain approval record that auditors and regulators could follow end to end</p>
 
-The public tooling in DeFi was built for speed. These clients needed something built for survival.
-
-Understanding The Work
-
-We approached these engagements as control system design problems, not just contract jobs.
-
-For each client we mapped three layers:
-
-Economic design
-What are the intended cash flows, rewards, and failure modes of the program. We stress tested scenarios such as extreme market moves, liquidity shocks, and governance capture.
-
-Operational reality and opsec
-Who actually sits at a keyboard with signing authority, how keys are generated and stored, what the real world social dynamics look like, and how incidents would be handled at 3 a.m. on a weekend.
-
-Technical surface area
-Which chains, token standards, or external protocols the system needed to touch, and where those integrations might introduce new ways for insiders to abuse access.
-
-Only when we understood where people, power, and code intersected did we move into architecture.
-
-Building The System
-
-Across multiple programs we delivered a pattern that combines conservative smart contracts with strict operational security.
-
-Hardened Smart Contract Suite
-
-We implemented a modular contract stack that handled:
-
-Treasury custody with explicit roles for spending, staking, and configuration
-Time based vesting with hard coded limits and emergency pause mechanisms
-Liquidity and incentive programs where emission rates, caps, and emergency parameters can be adjusted, but only through structured governance actions
-
-Contracts were intentionally simple, written in a restricted subset of Solidity, and passed through multiple rounds of internal review and third party audit.
-
-Separation Of Powers And Human Controls
-
-To address the real opsec problem, we designed the human layer just as carefully as the code.
-
-Distinct on chain roles for proposing, approving, and executing transactions so that no individual could create and push a high value transfer alone
-Multi signature policies that required a mix of internal leaders and independent trustees, with geographic and organizational separation
-Withdrawal rate limits and time locks on large moves so that even a compromised key set would trigger alerts and provide time to intervene
-Runbooks and training for key holders focused on device hygiene, phishing resistance, and escalation paths
-
-The objective was to make it impossible for a single engineer having a bad day to become an existential risk.
-
-Off Chain Monitoring And Evidence
-
-We wrapped the on chain system in a monitoring and reporting layer:
-
-Agents watched for out of pattern actions, such as new signers being added, parameters being changed, or unusually large withdrawals, and alerted operations and board members within minutes
-Data pipelines streamed transaction data into internal analytics and finance systems so that treasury views, P&L, and on chain reality always matched
-Every high value transaction left both an on chain trace and a signed, off chain approval record that auditors and regulators could follow end to end
-
-The Impact
-
-Across these programs the infrastructure has processed hundreds of millions of dollars in deposits, rewards, and treasury operations with a perfect record: no theft, no unauthorized withdrawals, and no major security incidents.
-
-Boards and investors gained a level of comfort that allowed them to approve larger programs and longer term commitments.
-Founders could ship new markets and incentive schemes faster by reusing the proven control pattern instead of rewriting their core contracts each time.
-External auditors and regulators received clear, consistent evidence of control, which reduced friction for listings and institutional partnerships.
-
-Most importantly, teams that had once relied on "trust the engineers" now operate on explicit, enforceable rules. Key holders still matter, but they are embedded in a system that assumes humans make mistakes and sometimes behave badly, and designs that risk out of the critical path.
-
-For Fulcrum Services, this work reinforced a core principle. In crypto, the biggest vulnerability is often not the math, it is the people wrapped around it. The right combination of smart contracts, governance, and opsec can turn that vulnerability into a strength and make digital asset systems that are boring in the best possible way.`,
+        <h2 className="text-3xl font-bold mb-4 mt-8">The Impact</h2>
+        <p className="mb-4">Across these programs the infrastructure has processed hundreds of millions of dollars in deposits, rewards, and treasury operations with a perfect record: no theft, no unauthorized withdrawals, and no major security incidents.</p>
+        <p className="mb-2">Boards and investors gained a level of comfort that allowed them to approve larger programs and longer term commitments.</p>
+        <p className="mb-2">Founders could ship new markets and incentive schemes faster by reusing the proven control pattern instead of rewriting their core contracts each time.</p>
+        <p className="mb-4">External auditors and regulators received clear, consistent evidence of control, which reduced friction for listings and institutional partnerships.</p>
+        <p className="mb-4">Most importantly, teams that had once relied on "trust the engineers" now operate on explicit, enforceable rules. Key holders still matter, but they are embedded in a system that assumes humans make mistakes and sometimes behave badly, and designs that risk out of the critical path.</p>
+        <p className="mb-4">For Fulcrum Services, this work reinforced a core principle. In crypto, the biggest vulnerability is often not the math, it is the people wrapped around it. The right combination of smart contracts, governance, and opsec can turn that vulnerability into a strength and make digital asset systems that are boring in the best possible way.</p>
+      </>
+    ),
   },
 ];
 
