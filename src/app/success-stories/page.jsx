@@ -10,7 +10,7 @@ export const metadata = {
 const Blogpost = () => {
   return (
     <div className='mt-20 flex justify-center'>
-      <Blog/>
+      <Blog hideButton={true} />
     </div>
   )
 }

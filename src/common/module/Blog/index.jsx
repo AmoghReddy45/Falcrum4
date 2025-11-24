@@ -8,7 +8,7 @@ import Buttons from "@/common/component/element/Buttons";
 import Feedback from "../Feedback";
 import Button from "@/common/component/element/Button";
 
-const Blog = () => {
+const Blog = ({ hideButton = false }) => {
   return (
     <div className="h-auto max-w-[1500px]  px-10 xl:px-20 pb-20">
       <ComponentTransition className="flex justify-center py-5">
@@ -23,14 +23,16 @@ const Blog = () => {
         </p>
       </ComponentTransition>
       <BlogList />
-      <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3">
-        <Link href='/blog' className="w-full rounded-full">
-        <Button
-          title="Read more about our success stories and join the ranks of our satisfied clients"
-          className="hover:!bgslate hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
-          />
-        </Link>
-      </ComponentTransition>
+      {!hideButton && (
+        <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3">
+          <Link href='/success-stories' className="w-full rounded-full">
+          <Button
+            title="Read more about our success stories and join the ranks of our satisfied clients"
+            className="hover:!bgslate hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
+            />
+          </Link>
+        </ComponentTransition>
+      )}
     </div>
   );
 };
