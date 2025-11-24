@@ -15,20 +15,29 @@ export default function OurTeam() {
             </p>
           </div>
         </div>
-        <div className="flex justify-center items-center mt-8">
-          <div className="group max-w-md">
-            <Image
-              alt="Daniel Bron - CEO"
-              className="overflow-hidden rounded-3xl object-cover object-center w-[200px] h-[200px] group-hover:scale-105 transition-transform"
-              height={200}
-              src="/daniel-bron.jpeg"
-              width={200}
-              priority
-            />
-            <div className="mt-4 text-left">
-              <h1 className="text-lg font-bold">Daniel Bron</h1>
-              <h2 className="text-md font-medium text-neutral-700 dark:text-neutral-300">Founder</h2>
-              <p className="text-sm text-neutral-700 dark:text-neutral-300 ">Daniel Bron is the founder of Fulcrum Services, a systems and applied AI studio that lives at the intersection of messy real world operations and clean decision making. Daniel has led work for DeLorean Motor Company, where his team designed operational digital twins and ownership rails that keep vehicles, customers, and internal programs in sync from reservation to resale. He worked with Ukraine's Ministry of Digital Transformation on crypto based payment rails that turned global digital donations into auditable, real world procurement under wartime conditions. His team has also contributed backend services to the Resy platform inside American Express, where reliability and volume are non negotiable. Beyond those flagship projects, Daniel and Fulcrum have helped reinvent internal intelligence for long standing businesses such as Sajiun Electric Contracting, turning paper, spreadsheets, and gut feel into live job and bidding insight. In the legal space he co built Solidity Law's internal systems as a true tech forward firm, and has designed crypto infrastructure and smart contract controls that have safely supported hundreds of millions in on chain volume. Informally, he has served as a sounding board to executives at luxury and automotive brands such as Lamborghini and Chrome Hearts on digital experience and next generation customer programs.</p>
+        <div className="mt-10 mx-auto w-full max-w-5xl rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-white/70 dark:bg-neutral-900/70 shadow-[0_20px_60px_-35px_rgba(15,23,42,0.6)] p-8 md:p-12">
+          <div className="grid gap-8 md:grid-cols-[0.4fr_0.6fr] items-center">
+            <div className="flex justify-center">
+              <Image
+                alt="Daniel Bron - Founder"
+                className="overflow-hidden rounded-3xl object-cover object-center w-full max-w-[360px] h-[360px]"
+                height={360}
+                src="/daniel-bron.jpeg"
+                width={360}
+                priority
+              />
+            </div>
+            <div className="text-left space-y-2 text-neutral-800 dark:text-neutral-200">
+              <h1 className="text-3xl font-bold">Daniel Bron</h1>
+              <h2 className="text-lg font-medium text-neutral-600 dark:text-neutral-300">
+                Founder
+              </h2>
+              <p className="text-base leading-relaxed">
+                Daniel Bron founded Fulcrum Services to live at the intersection of messy real-world operations and clear decision making. He has led programs for DeLorean Motor Company, building operational twins and ownership rails that keep vehicles, customers, and internal teams in sync from reservation to resale. He worked with Ukraine's Ministry of Digital Transformation on crypto rails that turned global digital donations into auditable procurement during wartime, and contributed core FastAPI services to the Resy platform inside American Express where reliability and volume are non-negotiable.
+              </p>
+              <p className="text-base leading-relaxed">
+                Beyond those flagship projects, Daniel helps long-standing companies such as Sajiun Electric Contracting replace paper-and-spreadsheet operations with live intelligence, co-builds legal operating systems for firms like Solidity Law, and designs crypto infrastructure controls that have safely supported hundreds of millions in on-chain volume. He is a trusted sounding board to leaders across automotive, luxury, and institutional technology who need to move fast without breaking the systems they already rely on.
+              </p>
             </div>
           </div>
         </div>

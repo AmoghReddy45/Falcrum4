@@ -83,25 +83,45 @@ export const BlogContent = [
     slug: 'delorean-operational-twins',
     img: '/delorean.png',
     title: "DeLorean Motor Company: Designing the Digital Rail for a New Generation of Vehicles",
-    desc: "How a reborn automotive icon used operational twins and NFT based ownership to keep vehicles, customers, and internal teams in sync from reservation to resale, and began turning that twin into a living, programmable car title.",
+    desc: "How a reborn automotive icon used operational twins and NFT based ownership to keep vehicles, customers, and internal teams in sync—and began turning that twin into a living, programmable car title.",
     tag: "Case Study",
-    content: `When DeLorean Motor Company began planning its modern lineup it confronted a classic problem for high end manufacturers that sell into the future, not off the lot. Reservations arrived months in advance. Programs evolved. Configurations changed. Finance and legal needed clean rules for deposits, upgrades, and cancellations. Marketing wanted a digital experience that felt worthy of the DeLorean name, not just another reservation portal.
+    content: (
+      <>
+        <h2 className="text-3xl font-bold mb-4 mt-8">The Challenge</h2>
+        <p className="mb-4">
+          DeLorean sells into the future, not off the lot. Reservations arrive months ahead of production, programs evolve, configurations change, and every department still has to give customers and partners a confident answer about status.
+          Production slots, VINs, customer records, payments, and digital entitlements all lived in separate systems. There was no single source of truth tying the physical car, its digital twin, and the human who owned both.
+        </p>
 
-Behind all of that sat a deeper issue. Production slots, VINs, customer records, payments, and digital entitlements all lived in separate systems. There was no single source of truth that connected a physical car, its digital representation, and the human who owned both. DeLorean needed a digital foundation that could tie every vehicle and VIN to a live customer and reservation record, support a multi stage, NFT based ownership journey that mirrored the real world lifecycle of the car, give internal teams one operational view instead of many conflicting spreadsheets and tools, and create the basis for a programmable title that could travel with the car across owners, locations, and services.
+        <h2 className="text-3xl font-bold mb-4 mt-8">Designing The Operational Ownership Twin</h2>
+        <p className="mb-4">
+          Fulcrum treated NFTs, reservations, and production planning as three lenses on one system. Working with program, finance, marketing, engineering, and legal leads we mapped the lifecycle from allocation through resale, then built an operational twin that:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 text-neutral-700 dark:text-neutral-200">
+          <li>Tracks every vehicle as a structured digital object with configuration, VIN, production status, delivery events, and service history.</li>
+          <li>Uses a staged NFT model that upgrades as the customer moves from slot to delivered vehicle, encoding rights, payments, and possible actions.</li>
+          <li>Keeps VINs, production batches, wallets, traditional CRM data, and in‑vehicle signals in sync through a common data model.</li>
+          <li>Enforces compliance, deposits, expirations, and allocation rules in code so policy and software never drift.</li>
+        </ul>
 
-Fulcrum Services partnered with DeLorean to design what we called the operational ownership twin. Instead of treating NFTs, reservations, and production planning as separate initiatives, we treated them as three lenses on the same underlying system. Our team worked with program leads, finance, marketing, engineering, and legal to map the complete lifecycle of a car, from early allocation through configuration, production, delivery, service, and resale. We defined a staged NFT model that tracks that lifecycle and upgrades as the customer moves from initial slot to final vehicle and then transfer. We designed a data model that keeps VINs, production batches, customer wallets, traditional CRM records, and later on in vehicle signals in sync. We captured the compliance and consumer protection constraints that had to be enforced in code, not only in policy decks.
+        <h2 className="text-3xl font-bold mb-4 mt-8">From Twin To Programmable Title</h2>
+        <p className="mb-4">
+          After the twin stabilized, we extended it toward a de facto digital title. Telemetry and service events feed the twin so major repairs, software updates, and battery health milestones are reflected in the ownership record.
+          Because the NFT stays cryptographically linked to the twin, “paperwork” moves with the car while staying anchored to live data instead of static PDFs. Future capabilities—location‑scoped access, usage‑based warranties, automated compliance checks—can slot into the same architecture.
+        </p>
 
-The goal was simple. If a leader asked "Where is this car, who owns it, what is its state, and what can we offer next" the answer should come from a single, trusted system.
-
-Working with DeLorean's engineering and external partners, we designed and helped implement four core pieces. Every car is represented by a structured digital object that tracks configuration, VIN, production status, delivery events, and service history. This twin is the anchor that every internal system talks to, which removes the need for teams to reconcile their own copies of reality. We implemented a multi level NFT structure that starts as a claim on a production slot and gradually upgrades to a fully specified, fully delivered vehicle token that remains tied to the VIN. Each stage encodes what the customer has paid, what rights they have, and what possible actions come next, such as configure, transfer, or schedule service.
-
-Business rules around deposits, expirations, allocation, and resale are enforced in a dedicated control service. If a buyer fails to finalize a configuration or delivery within the defined window, the system can automatically recycle the slot, trigger the correct customer communication, and keep a complete audit trail.
-
-Once the operational twin was stable, we extended the design toward a de facto digital title for the vehicle. Telemetry streams and service events are mapped into the twin so that key state changes, such as major repairs, software updates, or battery health milestones, are reflected in the ownership record. The NFT is kept cryptographically linked to the twin, so that the "paperwork" of the car can move with it across owners while staying anchored to live data, not frozen PDFs. The architecture leaves room for future capabilities such as location scoped access control, usage based warranties, and automated compliance checks before transfer. The intent is not to replace official state title regimes but to give DeLorean and its customers a richer, more accurate representation of the asset that can plug into those regimes when they are ready.
-
-The operational twin and NFT rail gave DeLorean a level of control and visibility that traditional configurators and basic reservation systems rarely deliver. Production planning shifted from periodic reconciliations to a continuous, data driven process. Allocation and wait list conversations moved from rough estimates to specific, VIN linked answers for each buyer. Marketing gained a digital experience that remained relevant from announcement through ownership, instead of a one time drop. Legal and finance had clearer, encoded rules for deposits, expirations, and transfers, backed by a full event history.
-
-Most importantly, the same pattern that powers the first program can be reused and extended. New vehicle lines, fleet models, and subscription offerings can all sit on top of the same operational twin and programmable title architecture. What took months to design and integrate for the first program can be replicated in weeks for the next one. For Fulcrum Services, DeLorean became a blueprint. It showed how a carefully designed operational twin and live ownership rail can turn a complex, cross functional launch into something that feels predictable and controllable, and it demonstrated how ideas like "NFTs" become real when they are tied to actual assets, data, and decisions rather than treated as stand alone gimmicks.`,
+        <h2 className="text-3xl font-bold mb-4 mt-8">Impact</h2>
+        <p className="mb-4">
+          The operational twin and NFT rail gave DeLorean control and visibility that traditional configurators rarely deliver.
+          Production planning became continuous and data driven. Allocation conversations shifted from rough estimates to VIN‑linked answers.
+          Marketing gained a digital experience that stayed relevant from announcement through ownership, while legal and finance relied on encoded rules backed by full event history.
+        </p>
+        <p className="mb-4">
+          Most importantly, the pattern is reusable. New vehicle lines, fleet models, or subscription offerings can sit on top of the same twin and programmable title architecture.
+          What once took months to integrate now takes weeks, turning NFTs from a gimmick into durable infrastructure tied to real assets and decisions.
+        </p>
+      </>
+    ),
   },
   {
     id: 3,

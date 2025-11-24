@@ -54,7 +54,7 @@ const Navbar = () => {
             <img src="/Logo-Light.svg" alt="Logo" style={{ maxHeight: '72px' }} />
           </Link>
         </div>
-        <div className="lg:flex hidden justify-center gap-10 items-center w-full">
+        <div className="lg:flex hidden justify-center gap-10 items-center flex-1 text-center">
           {NavigationItem.map((item, index) => (
             <Link
               href={item.src}
