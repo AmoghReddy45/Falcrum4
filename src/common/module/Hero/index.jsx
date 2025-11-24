@@ -10,6 +10,7 @@ import { HeroImage } from "@/common/constant/HeroImage";
 import { Parallax } from "@/common/constant/Parallax";
 import H1 from "@/common/component/element/H1";
 import { ButtonSpot } from "@/common/component/element/ButtonSpot";
+import Link from "next/link";
 
 
 export const translateVariantText = {
@@ -68,10 +69,12 @@ const Hero = () => {
           </p>
 
           <motion.div className="flex max-md:flex-col w-full items-center justify-center gap-5 py-5">
-            <ButtonSpot
-              title="Get a Working Session"
-              className="!rounded-full !w-auto !py-2"
-            />
+            <Link href="/contact">
+              <ButtonSpot
+                title="Get a Working Session"
+                className="!rounded-full !w-auto !py-2"
+              />
+            </Link>
           </motion.div>
         </div>
 

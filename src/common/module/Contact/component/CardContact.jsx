@@ -14,8 +14,8 @@ const CardContact = () => {
           <h1 className="text-4xl py2 font-bold ">Get In Touch</h1>
 
           <h1 className="mt-10 text-lg">Head-quarters:</h1>
-          <h2 className="text-neutral-500">Indonesia, Jakarta</h2>
-          <h2 className="text-neutral-500">Email: mfahlevi740@gmail.com</h2>
+          <h2 className="text-neutral-500">Miami, Florida</h2>
+          <h2 className="text-neutral-500">Email: brondaniel7@gmail.com</h2>
         </ComponentTransition>
         <div className="w-full h-auto md:h-[300px] md:basis-[55%] ">
           <ContactForm />
@@ -23,7 +23,7 @@ const CardContact = () => {
 
         <ComponentTransition delay={0.2} className="w-full h-auto overflow-hidden rounded-3xl  md:basis-[47%] ">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.65638805012!2d106.66470295433655!3d-6.229379591448096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1701852183072!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230310.4749628059!2d-80.43949654029946!3d25.78239394047303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1701852183072!5m2!1sen!2sus"
             width="100%"
             height="100%"
             className="border-none h-[350px] px-0 rounded-3xl"
