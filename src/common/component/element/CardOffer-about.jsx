@@ -27,7 +27,7 @@ export default function CardOffer({title, className = ''}) {
         Welcome to Fulcrum Services, where complex systems become clear.
         </h2>
         <h3 className="text-left text-xl md:text-2xl py-5 bg-clip-text bg-gradient-to-r dark:from-white from-black from-50% dark:to-[#b1b1b1] to-[#292929]   md:w-[80%] text-transparent font-medium">
-        We are a focused studio led by Daniel Bron that lives at the intersection of emerging technology and real world operations. From crypto rails for a national government to digital foundations for DeLorean and services inside American Express’ Resy platform, we help teams build the control layers they wish they already had. If you are responsible for a complex environment and need a partner who can think with you and execute with you, we would love to talk.
+        We are a focused studio led by Daniel Bron that lives at the intersection of emerging technology and real operations. Whether you run a mobility program, a national initiative, or a global platform, we build the control layers teams wish they already had. If you need a partner who can think with you and execute with you, let’s talk.
         </h3>
       <ComponentTransition className="w-full md:flex-row flex-row flex gap-3 py-5 md:w-[80%] justify-items-start items-start content-start place-items-start place-content-start">
           <Link href="/contact">

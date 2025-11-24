@@ -26,7 +26,7 @@ const CardAbout = () => {
               Mission
             </h1> */}
             <p className="text-base text-neutral-800 dark:text-neutral-300 mt-5 ">
-            Daniel founded Fulcrum Services after spending years inside systems that were never designed for the pressure they carried. Early work in crypto and digital assets led to an engagement with Ukraine’s Ministry of Digital Transformation, where global donations had to move quickly and safely into real procurement. Work with DeLorean Motor Company focused on giving a legendary brand a modern digital backbone. Collaboration with American Express and Resy exposed the team to the demands of a global payments platform where downtime is not an option. The mission is simple: help organizations that carry real responsibility use modern technology in a grounded, measurable, and honest way. No theater. No buzzwords. Just clear systems that make the next decision easier and safer to take.
+            Daniel founded Fulcrum Services after years spent inside systems that were never designed for the pressure they carried. Work that began in crypto and digital assets quickly expanded to national programs, modern vehicle efforts, and global platforms where downtime is not an option. The mission is simple: help organizations that carry real responsibility use modern technology in a grounded, measurable, and honest way. No theater. No buzzwords. Just clear systems that make the next decision easier and safer to take.
             </p>
           </div>
         </div>
