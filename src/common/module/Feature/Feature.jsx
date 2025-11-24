@@ -61,7 +61,7 @@ export default function Feature() {
           Pioneers In Applied Intelligence
         </h1>
         <p className="text-base md:text-2xl text-center text-neutral-500 dark:text-neutral-300">
-          Technology is everywhere. Useful technology is rare. Fulcrum Services sits where ambitious ideas meet messy reality, whether it is DeLorean’s vehicle platform, Ukraine’s wartime financial rails, or the FastAPI backbone inside American Express’ Resy.
+          Technology is everywhere. Useful technology is rare. Fulcrum Services sits where ambitious ideas meet messy reality.
         </p>
         <p className="text-base md:text-2xl text-center text-neutral-500 dark:text-neutral-300 mt-4">
           AI, data, and infrastructure are only ingredients. We map the system, understand its constraints, and deliver the smallest set of tools that actually move the needle—listening hard, designing from first principles, and leaving leaders with systems they can trust.

@@ -65,7 +65,7 @@ const Hero = () => {
           />
 
           <p className="py-8 lg:w-[70%] text-center  lg:text-2xl mt-2 dark:text-neutral-300 text-neutral-700">
-          Fulcrum Services turns complex operations into clear, intelligent systems for founders, operators, and institutions. From DeLorean Motor Company to Ukraine’s Ministry of Digital Transformation and American Express’ Resy platform, we design, simulate, and ship what comes next.
+          Fulcrum Services turns complex operations into clear, intelligent systems for founders, operators, and institutions. We design, simulate, and ship what comes next.
           </p>
 
           <motion.div className="flex max-md:flex-col w-full items-center justify-center gap-5 py-5">
